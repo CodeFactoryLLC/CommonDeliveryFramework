@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework", "CommonDeliveryFramework\CommonDeliveryFramework.csproj", "{934FDCF1-2582-4BAC-95A8-FC16FA0AD3A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Net.Aspnet", "CommonDeliveryFramework.Net.Aspnet\CommonDeliveryFramework.Net.Aspnet.csproj", "{C5C33A22-D9D1-4301-AC9E-D77C3D7DD1E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{934FDCF1-2582-4BAC-95A8-FC16FA0AD3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934FDCF1-2582-4BAC-95A8-FC16FA0AD3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934FDCF1-2582-4BAC-95A8-FC16FA0AD3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934FDCF1-2582-4BAC-95A8-FC16FA0AD3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C33A22-D9D1-4301-AC9E-D77C3D7DD1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C33A22-D9D1-4301-AC9E-D77C3D7DD1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C33A22-D9D1-4301-AC9E-D77C3D7DD1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C33A22-D9D1-4301-AC9E-D77C3D7DD1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFC4C470-A72A-4DAA-8CF9-614FFFF11DAF}
+	EndGlobalSection
+EndGlobal

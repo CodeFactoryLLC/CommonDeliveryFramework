@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Product>Common Delivery Framework</Product>
+    <Description>Provides a framework to be used with application delivery for .net based application. This provides common libraries to handle common scenarios found in all types of application delivery.</Description>
+    <Copyright>Copyright (c) 2020 LifeCycle Delivery Services, Inc</Copyright>
+    <PackageProjectUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework.git</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>CommonDeliveryFramework Team</Authors>
+    <Company>LifeCycle Delivery Services, Inc</Company>
+    <PackageReleaseNotes>Initial release of the delivery framework</PackageReleaseNotes>
+    <PackageTags>Delivery Framework</PackageTags>
+    <FileVersion>1.0.20219.1</FileVersion>
+    <Version>1.0.02191</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="StandardExceptionMessages.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>StandardExceptionMessages.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="StandardExceptionMessages.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>StandardExceptionMessages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
