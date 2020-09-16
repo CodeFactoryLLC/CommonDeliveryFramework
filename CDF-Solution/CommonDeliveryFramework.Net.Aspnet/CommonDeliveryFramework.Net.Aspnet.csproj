@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <OutputType>Library</OutputType>
     <IsPackable>true</IsPackable>
     <Product>Common Delivery Framework for Asp.net Core</Product>
@@ -12,16 +12,16 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>CommonDeliveryFramework Team</Authors>
     <Company>LifeCycle Delivery Services, Inc</Company>
-    <PackageReleaseNotes>Initial release of the delivery framework</PackageReleaseNotes>
+    <PackageReleaseNotes>Update for .net 5.0 RC1</PackageReleaseNotes>
     <PackageTags>Delivery Framework ASPNetCore</PackageTags>
-    <FileVersion>1.0.20219.1</FileVersion>
-    <Version>1.0.02191</Version>
+    <FileVersion>1.0.20260.1</FileVersion>
+    <Version>5.0.0-rc.1.20451.14</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommonDeliveryFramework" Version="1.0.2191" />
+    <PackageReference Include="CommonDeliveryFramework" Version="5.0.0-rc.1.20451.14" />
   </ItemGroup>
 
   <ItemGroup>
