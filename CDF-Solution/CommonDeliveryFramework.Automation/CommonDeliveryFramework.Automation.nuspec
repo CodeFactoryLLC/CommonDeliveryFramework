@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
+
+  <metadata>
+    <id>CommonDeliveryFramework.Automation</id>
+    <version>1.0.203101-RC1</version>
+    <title>CodeFactory extensions for then CommonDeliveryFramework</title>
+    <authors>CodeFactory, LLC.</authors>
+    <owners>CodeFactory, LLC.</owners>
+    <license type="file">license.txt</license>
+    <projectUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Extension libraries the provide CodeFactory automation support for the CommonDeliveryFramework libraries. For use with the CodeFactory SDK.</description>
+    <releaseNotes>Initial version of libraries combined.</releaseNotes>
+    <copyright>© Copyright 2020 CodeFactory, LLC.</copyright>
+    <tags>CodeFactorySDK Factory Automation C#</tags>
+    <dependencies>
+      <dependency id="CodeFactorySDK" version="1.0.202301"/>
+      <dependency id="CodeFactoryExtensions" version="1.0.203101-RC1"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Debug\CommonDeliveryFramework.Automation.dll" target="lib\net472" />
+    <file src="bin\Debug\CommonDeliveryFramework.Automation.pdb" target="lib\net472" />
+    <file src="license.txt" target="" />
+  </files>
+</package>

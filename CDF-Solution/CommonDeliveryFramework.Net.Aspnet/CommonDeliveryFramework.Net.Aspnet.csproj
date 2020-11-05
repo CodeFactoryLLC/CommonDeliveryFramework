@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -12,23 +12,24 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>CommonDeliveryFramework Team</Authors>
     <Company>LifeCycle Delivery Services, Inc</Company>
-    <PackageReleaseNotes>Update for .net 5.0 RC1</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated to support .net 5.0 RC2 and integration support for CodeFactory automation</PackageReleaseNotes>
     <PackageTags>Delivery Framework ASPNetCore</PackageTags>
-    <FileVersion>1.0.20260.1</FileVersion>
-    <Version>5.0.0-rc.1.20451.14</Version>
+    <FileVersion>1.0.20310.1</FileVersion>
+    <Version>1.20310.1-NET5RC2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="CommonDeliveryFramework" Version="5.0.0-rc.1.20451.14" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommonDeliveryFramework" Version="1.20310.1-NET5RC2" />
   </ItemGroup>
 
 </Project>
