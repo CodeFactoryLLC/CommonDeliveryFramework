@@ -3,7 +3,7 @@
 namespace CommonDeliveryFramework
 {
     /// <summary>
-    /// Notifies that an exception has occured while managing data within the application an application safe message has been provided with the exception.
+    /// Notifies that an exception has occurred while managing data within the application an application safe message has been provided with the exception.
     /// </summary>
     public class DataException : ManagedException
     {

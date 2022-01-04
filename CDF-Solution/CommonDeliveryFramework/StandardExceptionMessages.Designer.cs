@@ -19,7 +19,7 @@ namespace CommonDeliveryFramework {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class StandardExceptionMessages {
@@ -61,7 +61,25 @@ namespace CommonDeliveryFramework {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A communication error has occured within the application..
+        ///   Looks up a localized string similar to Access error has occurred the operation could not complete..
+        /// </summary>
+        public static string AuthenticationException {
+            get {
+                return ResourceManager.GetString("AuthenticationException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Access error has occurred the operation could not complete..
+        /// </summary>
+        public static string AuthorizationException {
+            get {
+                return ResourceManager.GetString("AuthorizationException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A communication error has occurred within the application..
         /// </summary>
         public static string CommunicationException {
             get {
@@ -79,11 +97,20 @@ namespace CommonDeliveryFramework {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An error has occured while processing data in the application..
+        ///   Looks up a localized string similar to An error has occurred while processing data in the application..
         /// </summary>
         public static string DataException {
             get {
                 return ResourceManager.GetString("DataException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The information is a duplicate of existing information, the operation could not complete..
+        /// </summary>
+        public static string DuplicateException {
+            get {
+                return ResourceManager.GetString("DuplicateException", resourceCulture);
             }
         }
         
@@ -106,7 +133,7 @@ namespace CommonDeliveryFramework {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal application error has occured..
+        ///   Looks up a localized string similar to An internal application error has occurred..
         /// </summary>
         public static string ManagedException {
             get {
@@ -115,7 +142,7 @@ namespace CommonDeliveryFramework {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A security error has occured within the application..
+        ///   Looks up a localized string similar to A security error has occurred within the application..
         /// </summary>
         public static string SecurityException {
             get {
@@ -133,7 +160,7 @@ namespace CommonDeliveryFramework {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal application error has occured. Please confirm the operation completed successfully..
+        ///   Looks up a localized string similar to An internal application error has occurred. Please confirm the operation completed successfully..
         /// </summary>
         public static string UnhandledException {
             get {
@@ -142,7 +169,7 @@ namespace CommonDeliveryFramework {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A validation error has occured in the application, required information is incorrect or missing..
+        ///   Looks up a localized string similar to A validation error has occurred in the application, required information is incorrect or missing..
         /// </summary>
         public static string ValidationException {
             get {

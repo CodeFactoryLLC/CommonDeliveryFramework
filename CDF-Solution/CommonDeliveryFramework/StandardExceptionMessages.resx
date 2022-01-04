@@ -117,14 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AuthenticationException" xml:space="preserve">
+    <value>Access error has occurred the operation could not complete.</value>
+  </data>
+  <data name="AuthorizationException" xml:space="preserve">
+    <value>Access error has occurred the operation could not complete.</value>
+  </data>
   <data name="CommunicationException" xml:space="preserve">
-    <value>A communication error has occured within the application.</value>
+    <value>A communication error has occurred within the application.</value>
   </data>
   <data name="ConfigurationException" xml:space="preserve">
     <value>Configuration information for the application could not be found or is invalid.</value>
   </data>
   <data name="DataException" xml:space="preserve">
-    <value>An error has occured while processing data in the application.</value>
+    <value>An error has occurred while processing data in the application.</value>
+  </data>
+  <data name="DuplicateException" xml:space="preserve">
+    <value>The information is a duplicate of existing information, the operation could not complete.</value>
   </data>
   <data name="ExternalAccessException" xml:space="preserve">
     <value>Could not access external systems do to access being denied.</value>
@@ -133,18 +142,18 @@
     <value>The current operation had an internal error.</value>
   </data>
   <data name="ManagedException" xml:space="preserve">
-    <value>An internal application error has occured.</value>
+    <value>An internal application error has occurred.</value>
   </data>
   <data name="SecurityException" xml:space="preserve">
-    <value>A security error has occured within the application.</value>
+    <value>A security error has occurred within the application.</value>
   </data>
   <data name="TimeoutException" xml:space="preserve">
     <value>The current operation has timed out and could not complete.</value>
   </data>
   <data name="UnhandledException" xml:space="preserve">
-    <value>An internal application error has occured. Please confirm the operation completed successfully.</value>
+    <value>An internal application error has occurred. Please confirm the operation completed successfully.</value>
   </data>
   <data name="ValidationException" xml:space="preserve">
-    <value>A validation error has occured in the application, required information is incorrect or missing.</value>
+    <value>A validation error has occurred in the application, required information is incorrect or missing.</value>
   </data>
 </root>

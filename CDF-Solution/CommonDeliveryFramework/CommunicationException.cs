@@ -3,7 +3,7 @@
 namespace CommonDeliveryFramework
 {
     /// <summary>
-    /// Notifies that a communications exception has occured and application safe message has been provided with the exception.
+    /// Notifies that a communications exception has occurred and application safe message has been provided with the exception.
     /// </summary>
     public class CommunicationException : ManagedException
     {

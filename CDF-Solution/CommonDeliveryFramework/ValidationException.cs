@@ -3,7 +3,7 @@
 namespace CommonDeliveryFramework
 {
     /// <summary>
-    /// Notifies that an exception has occured while validating data within the application an application safe message has been provided with the exception.
+    /// Notifies that an exception has occurred while validating data within the application an application safe message has been provided with the exception.
     /// </summary>
     public class ValidationException : ManagedException
     {

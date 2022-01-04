@@ -3,7 +3,7 @@
 namespace CommonDeliveryFramework
 {
     /// <summary>
-    /// Notifies that an exception has occured within the applications executing logic and a application safe message has been provided with the exception.
+    /// Notifies that an exception has occurred within the applications executing logic and a application safe message has been provided with the exception.
     /// </summary>
     public class LogicException : ManagedException
     {

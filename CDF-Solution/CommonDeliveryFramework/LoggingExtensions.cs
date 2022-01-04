@@ -15,7 +15,7 @@ namespace CommonDeliveryFramework
         public const string PropertyMemberName = "MemberName";
 
         /// <summary>
-        /// The name of the property that captures the line number where the logging event occured.
+        /// The name of the property that captures the line number where the logging event occurred.
         /// </summary>
         public const string PropertyLineNumber = "LineNumber";
 

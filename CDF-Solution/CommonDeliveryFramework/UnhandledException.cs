@@ -3,7 +3,7 @@
 namespace CommonDeliveryFramework
 {
     /// <summary>
-    /// Exception that is raised an an application exception has occured and there was no catch logic to handle the exception. This returns a safe error messages to consumers of the exception.
+    /// Exception that is raised an an application exception has occurred and there was no catch logic to handle the exception. This returns a safe error messages to consumers of the exception.
     /// </summary>
     public class UnhandledException : ManagedException
     {
