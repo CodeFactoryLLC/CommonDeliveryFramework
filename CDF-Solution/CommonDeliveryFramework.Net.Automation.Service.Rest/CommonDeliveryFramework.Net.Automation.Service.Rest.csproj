@@ -51,6 +51,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestAbstractionExtensions.cs" />
+    <Compile Include="ServiceRestExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommonDeliveryFramework.Net.Automation.Common\CommonDeliveryFramework.Net.Automation.Common.csproj">

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Net
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Net.Automation.Delivery", "CommonDeliveryFramework.Net.Automation.Delivery\CommonDeliveryFramework.Net.Automation.Delivery.csproj", "{95321D50-4237-4B67-A0BC-307C28B3E9D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Database", "CommonDeliveryFramework.Database\CommonDeliveryFramework.Database.csproj", "{04AA81D1-CC4D-431E-AEEF-9938BC76A09B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{95321D50-4237-4B67-A0BC-307C28B3E9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95321D50-4237-4B67-A0BC-307C28B3E9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95321D50-4237-4B67-A0BC-307C28B3E9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04AA81D1-CC4D-431E-AEEF-9938BC76A09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AA81D1-CC4D-431E-AEEF-9938BC76A09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AA81D1-CC4D-431E-AEEF-9938BC76A09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AA81D1-CC4D-431E-AEEF-9938BC76A09B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

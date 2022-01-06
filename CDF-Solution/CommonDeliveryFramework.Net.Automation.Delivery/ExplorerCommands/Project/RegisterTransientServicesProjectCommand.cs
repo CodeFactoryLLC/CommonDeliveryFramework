@@ -10,6 +10,7 @@ using CodeFactory;
 using CodeFactory.DotNet.CSharp;
 using CodeFactory.Formatting.CSharp;
 using CommonDeliveryFramework.Net.Automation.Common;
+using CommonDeliveryFramework.Net.Automation.Delivery.Logic;
 
 namespace CommonDeliveryFramework.Net.Automation.Delivery.ExplorerCommands.Project
 {
@@ -67,46 +68,8 @@ namespace CommonDeliveryFramework.Net.Automation.Delivery.ExplorerCommands.Proje
         {
             try
             {
-                var loaders = await result.GetProjectLoadersAsync();
+                await result.RegisterTransientServicesAsync();
 
-                if(!loaders.Any()) return;
-
-                var transientClasses =  await result.LoadInstanceProjectClassesForTransientRegistrationAsync();
-
-                foreach (var loaderSource in loaders)
-                {
-                    var loaderClasses = loaderSource.Classes.Where(c =>
-                        c.BaseClass.Name == "DependencyInjectionLibraryLoader" &
-                        c.BaseClass.Namespace == "CommonDeliveryFramework");
-
-                    foreach (var loaderClass in loaderClasses)
-                    {
-                        var manager = loaderSource.LoadNamespaceManager(result.DefaultNamespace);
-
-                        var loadRegistrationMethod =
-                            DependencyInjectionExtensions.BuildInjectionMethod(transientClasses, manager);
-
-                        if(string.IsNullOrEmpty(loadRegistrationMethod)) continue;
-
-                        var registrationMethod = new SourceFormatter();
-
-                        registrationMethod.AppendCodeBlock(2, loadRegistrationMethod);
-
-                        //If the registration method is not being replaced but added new adding an additional indent level. 
-                        string newRegistrationMethod = registrationMethod.ReturnSource();
-
-                        var currentRegistrationMethod =
-                            loaderClass.Methods.FirstOrDefault(m => m.Name == "LoadRegistration");
-
-                        
-                        if (currentRegistrationMethod != null)
-                            await currentRegistrationMethod.ReplaceAsync(loadRegistrationMethod);
-                        else await loaderClass.AddToEndAsync(newRegistrationMethod);
-
-                    }
-                }
-
-                
             }
             catch (Exception unhandledError)
             {

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>netstandard2.0</TargetFramework>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <Product>Common Delivery Framework Database</Product>
+	  <Description>Provides a framework to be used with application delivery for .net based application. This provides common libraries to handle common scenarios found in all types of application delivery.</Description>
+	  <Copyright>Copyright (c) 2022 LifeCycle Delivery Services, Inc</Copyright>
+	  <PackageProjectUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework.git</RepositoryUrl>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <Authors>CommonDeliveryFramework Team</Authors>
+	  <Company>LifeCycle Delivery Services, Inc</Company>
+	  <PackageReleaseNotes>Initial release of the delivery framework</PackageReleaseNotes>
+	  <PackageTags>Delivery Framework</PackageTags>
+	  <FileVersion>1.0.22005.2</FileVersion>
+	  <Version>1.22005.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Link="LICENSE">
+      <PackagePath></PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommonDeliveryFramework\CommonDeliveryFramework.csproj" />
+  </ItemGroup>
+
+</Project>
