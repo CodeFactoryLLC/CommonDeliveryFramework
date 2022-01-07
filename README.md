@@ -1,5 +1,7 @@
-# CommonDeliveryFramework
+# CommonDeliveryFramework (CDF)
 Framework library that provides foundational blocks of code for common application delivery needs. This supports .net standard and .net core / 5 and later.  The final output is published as a Nuget Package.  The original purpose of this framework is for any project of any type to make use of - it has special applications for anyone who is authoring a CodeFactory automation template.
+
+**CDF v2-beta is now available to [download](https://github.com/CodeFactoryLLC/CommonDeliveryFramework/tree/Automation-Beta)**
 
 ## New to CodeFactory?
 In the simplest terms, CodeFactory is a real time software factory that is triggered from inside Visual Studio during the design and construction of software. CodeFactory allows for development staff to automate repetitive development tasks that take up developer’s time.
