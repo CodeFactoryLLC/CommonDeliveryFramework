@@ -24,4 +24,4 @@ All of these different types are sub-classes of Managed Exception which wraps up
 
 **Check out the [CDF Product Roadmap](https://github.com/CodeFactoryLLC/CommonDeliveryFramework/wiki) for planned features on the upcoming release.**
 
-**CDF v2-beta is now available [download](https://github.com/CodeFactoryLLC/CommonDeliveryFramework/tree/Automation-Beta)
+**CDF v2-beta is now available to [download](https://github.com/CodeFactoryLLC/CommonDeliveryFramework/tree/Automation-Beta)**
