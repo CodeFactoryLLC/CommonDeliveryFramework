@@ -30,7 +30,7 @@ namespace CommonDeliveryFramework.Net.Automation.Delivery
         /// <summary>
         /// Suffix for models that are used with Grpc services.
         /// </summary>
-        public const string GrpcModelLibrarySuffix = ".Model.Grpc";
+        public const string GrpcModelLibrarySuffix = ".Model.Rpc";
 
         /// <summary>
         /// Suffix for services that implement rest.
@@ -40,7 +40,7 @@ namespace CommonDeliveryFramework.Net.Automation.Delivery
         /// <summary>
         /// Suffix for services that implement Grpc.
         /// </summary>
-        public const string GrpcServiceLibrarySuffix = ".Service.Grpc";
+        public const string GrpcServiceLibrarySuffix = ".Service.Rpc";
 
         /// <summary>
         /// Suffix for application logic.

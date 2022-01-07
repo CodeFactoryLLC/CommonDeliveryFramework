@@ -52,6 +52,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExplorerCommands\SourceCode\UpdateGrpcServiceDefinitionCSharpSourceCommand.cs" />
     <Compile Include="ExplorerCommands\SourceCode\UpdateRestServiceDefinitionCsDocumentCommand .cs" />
     <Compile Include="ExplorerCommands\SourceCode\UpdateSqlModelCsDocumentCommand.cs" />
     <Compile Include="Logic\AppModelExtensions.cs" />

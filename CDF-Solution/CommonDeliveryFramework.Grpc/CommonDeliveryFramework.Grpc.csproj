@@ -1,11 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFramework>netstandard2.0</TargetFramework>
-	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
-	  <Product>Common Delivery Framework Database</Product>
-	  <Description>Provides a framework to be used with application delivery for .net based application. This provides common libraries to handle common scenarios found in all types of application delivery.</Description>
+	  <Product>Common Delivery Framework Grpc</Product>
+	  <Description>Provides a framework to be used with application delivery for .net based application. This library focuses on handling Grpc integration with common delivery framework..</Description>
 	  <Copyright>Copyright (c) 2022 LifeCycle Delivery Services, Inc</Copyright>
 	  <PackageProjectUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework</PackageProjectUrl>
 	  <RepositoryUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework.git</RepositoryUrl>
@@ -14,8 +16,8 @@
 	  <Company>LifeCycle Delivery Services, Inc</Company>
 	  <PackageReleaseNotes>Initial release of the delivery framework</PackageReleaseNotes>
 	  <PackageTags>Delivery Framework</PackageTags>
-	  <FileVersion>1.0.22006.1</FileVersion>
-	  <Version>1.22006.1</Version>
+	  <FileVersion>1.0.22006.2</FileVersion>
+	  <Version>1.22006.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.0" />
+    <PackageReference Include="protobuf-net.Grpc" Version="1.0.152" />
   </ItemGroup>
 
   <ItemGroup>

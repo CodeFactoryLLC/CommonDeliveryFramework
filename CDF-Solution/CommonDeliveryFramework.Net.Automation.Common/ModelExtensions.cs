@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using CodeFactory;
 using CodeFactory.DotNet.CSharp;
 using CodeFactory.Formatting.CSharp;
@@ -13,6 +14,44 @@ namespace CommonDeliveryFramework.Net.Automation.Common
     /// </summary>
     public static class ModelExtensions
     {
+
+        /// <summary>
+        /// Attribute name to be added to all gRpc model that convert from APP model.
+        /// </summary>
+        public const string ModelConvertAttribute = "ModelConvertAttribute";
+
+        /// <summary>
+        /// Namespace in which the model support items are located. 
+        /// </summary>
+        public const string ModelUtilityNamespace = "CommonDeliveryFramework";
+
+
+        /// <summary>
+        /// Locates a target model that implements the transformation for a source model.
+        /// </summary>
+        /// <param name="source">The project to search.</param>
+        /// <param name="sourceModel">The source class model used to find the target model in the project.</param>
+        /// <param name="targetModelName">The proposed name of the target model that implements transformation of source model.</param>
+        /// <returns>The source code file the target model was found in.</returns>
+        public static async Task<VsCSharpSource> FindModel(this VsProject source, CsClass sourceModel, string targetModelName)
+        {
+            //Bounds checking
+            if (source == null) return null;
+
+            if (string.IsNullOrEmpty(targetModelName)) return null;
+
+            var children = await source.GetChildrenAsync(true, true);
+
+            var sourceCode = children.Where(m => m.ModelType == VisualStudioModelType.CSharpSource)
+                .Cast<VsCSharpSource>();
+
+            var result = sourceCode.FirstOrDefault(s => s.SourceCode.Classes.Any(c => 
+                                                            c.Attributes.Any( a => a.Type.Namespace == ModelUtilityNamespace & a.Type.Name == ModelConvertAttribute & a.Parameters.Any(p => p?.Value.TypeValue.Namespace == sourceModel.Namespace & p?.Value.TypeValue.Name == sourceModel.Name))) 
+                                                        | s.SourceCode.Classes.Any(c=> c.Name == targetModelName));
+
+            return result;
+        }
+
         /// <summary>
         /// Checks a type definition to determine if it is a target class from a target namespace.
         /// </summary>
