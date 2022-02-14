@@ -23,3 +23,5 @@ For Exception handling the framework defines a large selection of Types:
 All of these different types are sub-classes of Managed Exception which wraps up and understands how to convert to the standards compliant Problem type that can safely be sent across service boundaries.
 
 **Check out the [CDF Product Roadmap](https://github.com/CodeFactoryLLC/CommonDeliveryFramework/wiki) for planned features on the upcoming release.**
+
+**CDF v2-beta is now available to [download](https://github.com/CodeFactoryLLC/CommonDeliveryFramework/tree/Automation-Beta)**
