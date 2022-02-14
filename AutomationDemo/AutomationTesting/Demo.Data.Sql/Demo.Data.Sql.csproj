@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommonDeliveryFramework" Version="1.22006.1" />
+    <PackageReference Include="CommonDeliveryFramework.Database" Version="1.22006.1" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Data.Contract\Demo.Data.Contract.csproj" />
+    <ProjectReference Include="..\Demo.Model.App\Demo.Model.App.csproj" />
+    <ProjectReference Include="..\Demo.Model.Sql\Demo.Model.Sql.csproj" />
+  </ItemGroup>
+
+</Project>

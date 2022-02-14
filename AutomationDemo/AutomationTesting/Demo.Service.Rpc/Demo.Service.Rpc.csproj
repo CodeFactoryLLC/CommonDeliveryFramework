@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommonDeliveryFramework" Version="1.22006.1" />
+    <PackageReference Include="CommonDeliveryFramework.Grpc" Version="1.22006.2" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
+    <PackageReference Include="protobuf-net.Grpc.AspNetCore" Version="1.0.152" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Data.Contract\Demo.Data.Contract.csproj" />
+    <ProjectReference Include="..\Demo.Data.Sql\Demo.Data.Sql.csproj" />
+    <ProjectReference Include="..\Demo.Logic\Demo.Logic.csproj" />
+    <ProjectReference Include="..\Demo.Model.App\Demo.Model.App.csproj" />
+    <ProjectReference Include="..\Demo.Model.Rpc\Demo.Model.Rpc.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
