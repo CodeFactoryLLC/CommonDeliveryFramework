@@ -11,7 +11,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         /// Extension method that generates problem details for the exception.
         /// </summary>
         /// <param name="source">The exception to map to a <see cref="ProblemDetails"/></param>
-        /// <param name="controller">The base controller the exception occured in. </param>
+        /// <param name="controller">The base controller the exception occurred in. </param>
         /// <param name="type">Optional parameter that sets the URL for the human readable explanation for the status code. Default value is set to https://httpstatuses.com/403 </param>
         /// <param name="status">Optional parameter that sets the return status code for the problem. Default value is set to 403.</param>
         /// <param name="title">Optional parameter that sets the title for the problem. Default value is set to Forbidden.</param>
@@ -27,7 +27,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         /// Extension method that generates problem details for the exception.
         /// </summary>
         /// <param name="source">The exception to map to a <see cref="ProblemDetails"/></param>
-        /// <param name="controller">The base controller the exception occured in. </param>
+        /// <param name="controller">The base controller the exception occurred in. </param>
         /// <param name="type">Optional parameter that sets the URL for the human readable explanation for the status code. Default value is set to https://httpstatuses.com/504 </param>
         /// <param name="status">Optional parameter that sets the return status code for the problem. Default value is set to 504.</param>
         /// <param name="title">Optional parameter that sets the title for the problem. Default value is set to Gateway Timeout.</param>
@@ -43,7 +43,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         /// Extension method that generates problem details for the exception.
         /// </summary>
         /// <param name="source">The exception to map to a <see cref="ProblemDetails"/></param>
-        /// <param name="controller">The base controller the exception occured in. </param>
+        /// <param name="controller">The base controller the exception occurred in. </param>
         /// <param name="type">Optional parameter that sets the URL for the human readable explanation for the status code. Default value is set to https://httpstatuses.com/500 </param>
         /// <param name="status">Optional parameter that sets the return status code for the problem. Default value is set to 500.</param>
         /// <param name="title">Optional parameter that sets the title for the problem. Default value is set to Internal Server Error.</param>
@@ -59,7 +59,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         /// Extension method that generates problem details for the exception.
         /// </summary>
         /// <param name="source">The exception to map to a <see cref="ProblemDetails"/></param>
-        /// <param name="controller">The base controller the exception occured in. </param>
+        /// <param name="controller">The base controller the exception occurred in. </param>
         /// <param name="type">Optional parameter that sets the URL for the human readable explanation for the status code. Default value is set to https://httpstatuses.com/500 </param>
         /// <param name="status">Optional parameter that sets the return status code for the problem. Default value is set to 500.</param>
         /// <param name="title">Optional parameter that sets the title for the problem. Default value is set to Internal Server Error.</param>
@@ -75,7 +75,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         /// Extension method that generates problem details for the exception.
         /// </summary>
         /// <param name="source">The exception to map to a <see cref="ProblemDetails"/></param>
-        /// <param name="controller">The base controller the exception occured in. </param>
+        /// <param name="controller">The base controller the exception occurred in. </param>
         /// <param name="type">Optional parameter that sets the URL for the human readable explanation for the status code. Default value is set to https://httpstatuses.com/400 </param>
         /// <param name="status">Optional parameter that sets the return status code for the problem. Default value is set to 400.</param>
         /// <param name="title">Optional parameter that sets the title for the problem. Default value is set to Bad Request.</param>
@@ -91,7 +91,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         /// Extension method that generates problem details for the exception.
         /// </summary>
         /// <param name="source">The exception to map to a <see cref="ProblemDetails"/></param>
-        /// <param name="controller">The base controller the exception occured in. </param>
+        /// <param name="controller">The base controller the exception occurred in. </param>
         /// <param name="type">Optional parameter that sets the URL for the human readable explanation for the status code. Default value is set to https://httpstatuses.com/500 </param>
         /// <param name="status">Optional parameter that sets the return status code for the problem. Default value is set to 500.</param>
         /// <param name="title">Optional parameter that sets the title for the problem. Default value is set to Internal Server Error.</param>
@@ -107,7 +107,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         /// Extension method that generates problem details for the exception.
         /// </summary>
         /// <param name="source">The exception to map to a <see cref="ProblemDetails"/></param>
-        /// <param name="controller">The base controller the exception occured in. </param>
+        /// <param name="controller">The base controller the exception occurred in. </param>
         /// <param name="type">Optional parameter that sets the URL for the human readable explanation for the status code. Default value is set to https://httpstatuses.com/500 </param>
         /// <param name="status">Optional parameter that sets the return status code for the problem. Default value is set to 500.</param>
         /// <param name="title">Optional parameter that sets the title for the problem. Default value is set to Internal Server Error.</param>
@@ -123,7 +123,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         /// Extension method that generates problem details for the exception.
         /// </summary>
         /// <param name="source">The exception to map to a <see cref="ProblemDetails"/></param>
-        /// <param name="controller">The base controller the exception occured in. </param>
+        /// <param name="controller">The base controller the exception occurred in. </param>
         /// <param name="type">Optional parameter that sets the URL for the human readable explanation for the status code. Default value is set to https://httpstatuses.com/401 </param>
         /// <param name="status">Optional parameter that sets the return status code for the problem. Default value is set to 401.</param>
         /// <param name="title">Optional parameter that sets the title for the problem. Default value is set to UnAuthorized.</param>
@@ -139,7 +139,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         /// Extension method that generates problem details for the exception.
         /// </summary>
         /// <param name="source">The exception to map to a <see cref="ProblemDetails"/></param>
-        /// <param name="controller">The base controller the exception occured in. </param>
+        /// <param name="controller">The base controller the exception occurred in. </param>
         /// <param name="type">Optional parameter that sets the URL for the human readable explanation for the status code. Default value is set to https://httpstatuses.com/504 </param>
         /// <param name="status">Optional parameter that sets the return status code for the problem. Default value is set to 504.</param>
         /// <param name="title">Optional parameter that sets the title for the problem. Default value is set to GatewayTimeout.</param>
@@ -155,7 +155,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         /// Extension method that generates problem details for the exception.
         /// </summary>
         /// <param name="source">The exception to map to a <see cref="ProblemDetails"/></param>
-        /// <param name="controller">The base controller the exception occured in. </param>
+        /// <param name="controller">The base controller the exception occurred in. </param>
         /// <param name="type">Optional parameter that sets the URL for the human readable explanation for the status code. Default value is set to https://httpstatuses.com/500 </param>
         /// <param name="status">Optional parameter that sets the return status code for the problem. Default value is set to 500.</param>
         /// <param name="title">Optional parameter that sets the title for the problem. Default value is set to Internal Server Error.</param>

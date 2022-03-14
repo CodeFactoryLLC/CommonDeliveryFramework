@@ -69,7 +69,7 @@ namespace CommonDeliveryFramework.Net.Aspnet
         private static ProblemObjectResult CreateGenericInternalServerErrorProblemResult()
         {
             var problem = new ProblemDetails
-            { Type = "https://httpstatuses.com/500", Status = 500, Title = "Internal Server Error", Detail = "An internal error has occured and the operation could not complete." };
+            { Type = "https://httpstatuses.com/500", Status = 500, Title = "Internal Server Error", Detail = "An internal error has occurred and the operation could not complete." };
 
             return new ProblemObjectResult(problem);
         }

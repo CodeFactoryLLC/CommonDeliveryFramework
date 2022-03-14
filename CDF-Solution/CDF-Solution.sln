@@ -1,11 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30225.117
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework", "CommonDeliveryFramework\CommonDeliveryFramework.csproj", "{934FDCF1-2582-4BAC-95A8-FC16FA0AD3A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonDeliveryFramework", "CommonDeliveryFramework\CommonDeliveryFramework.csproj", "{934FDCF1-2582-4BAC-95A8-FC16FA0AD3A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Net.Aspnet", "CommonDeliveryFramework.Net.Aspnet\CommonDeliveryFramework.Net.Aspnet.csproj", "{C5C33A22-D9D1-4301-AC9E-D77C3D7DD1E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonDeliveryFramework.Net.Aspnet", "CommonDeliveryFramework.Net.Aspnet\CommonDeliveryFramework.Net.Aspnet.csproj", "{C5C33A22-D9D1-4301-AC9E-D77C3D7DD1E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Net.Automation.Common", "CommonDeliveryFramework.Net.Automation.Common\CommonDeliveryFramework.Net.Automation.Common.csproj", "{30322D82-7653-48FB-B7EA-CB39B8485C5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Net.Automation.Service.Rest", "CommonDeliveryFramework.Net.Automation.Service.Rest\CommonDeliveryFramework.Net.Automation.Service.Rest.csproj", "{4E791B65-358A-45C2-8B32-5C904CF655B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Net.Automation.Service.Grpc", "CommonDeliveryFramework.Net.Automation.Service.Grpc\CommonDeliveryFramework.Net.Automation.Service.Grpc.csproj", "{6D851DF5-41E7-4A09-932F-8EE61AD02A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Net.Automation.Data.Sql", "CommonDeliveryFramework.Net.Automation.Data.Sql\CommonDeliveryFramework.Net.Automation.Data.Sql.csproj", "{475EA4D8-1A59-4E4B-8299-9E2C694AA03B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Net.Automation.Delivery", "CommonDeliveryFramework.Net.Automation.Delivery\CommonDeliveryFramework.Net.Automation.Delivery.csproj", "{95321D50-4237-4B67-A0BC-307C28B3E9D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonDeliveryFramework.Database", "CommonDeliveryFramework.Database\CommonDeliveryFramework.Database.csproj", "{04AA81D1-CC4D-431E-AEEF-9938BC76A09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDeliveryFramework.Grpc", "CommonDeliveryFramework.Grpc\CommonDeliveryFramework.Grpc.csproj", "{725F4F06-D67E-4EA3-9519-E2BE9103A57F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +35,34 @@ Global
 		{C5C33A22-D9D1-4301-AC9E-D77C3D7DD1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5C33A22-D9D1-4301-AC9E-D77C3D7DD1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5C33A22-D9D1-4301-AC9E-D77C3D7DD1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30322D82-7653-48FB-B7EA-CB39B8485C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30322D82-7653-48FB-B7EA-CB39B8485C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30322D82-7653-48FB-B7EA-CB39B8485C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30322D82-7653-48FB-B7EA-CB39B8485C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E791B65-358A-45C2-8B32-5C904CF655B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E791B65-358A-45C2-8B32-5C904CF655B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E791B65-358A-45C2-8B32-5C904CF655B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E791B65-358A-45C2-8B32-5C904CF655B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D851DF5-41E7-4A09-932F-8EE61AD02A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D851DF5-41E7-4A09-932F-8EE61AD02A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D851DF5-41E7-4A09-932F-8EE61AD02A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D851DF5-41E7-4A09-932F-8EE61AD02A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475EA4D8-1A59-4E4B-8299-9E2C694AA03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475EA4D8-1A59-4E4B-8299-9E2C694AA03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475EA4D8-1A59-4E4B-8299-9E2C694AA03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475EA4D8-1A59-4E4B-8299-9E2C694AA03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95321D50-4237-4B67-A0BC-307C28B3E9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95321D50-4237-4B67-A0BC-307C28B3E9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95321D50-4237-4B67-A0BC-307C28B3E9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95321D50-4237-4B67-A0BC-307C28B3E9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04AA81D1-CC4D-431E-AEEF-9938BC76A09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AA81D1-CC4D-431E-AEEF-9938BC76A09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AA81D1-CC4D-431E-AEEF-9938BC76A09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AA81D1-CC4D-431E-AEEF-9938BC76A09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725F4F06-D67E-4EA3-9519-E2BE9103A57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725F4F06-D67E-4EA3-9519-E2BE9103A57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725F4F06-D67E-4EA3-9519-E2BE9103A57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725F4F06-D67E-4EA3-9519-E2BE9103A57F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
