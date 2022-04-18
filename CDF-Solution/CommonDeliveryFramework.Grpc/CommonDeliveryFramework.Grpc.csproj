@@ -16,8 +16,8 @@
 	  <Company>LifeCycle Delivery Services, Inc</Company>
 	  <PackageReleaseNotes>Initial release of the delivery framework</PackageReleaseNotes>
 	  <PackageTags>Delivery Framework</PackageTags>
-	  <FileVersion>1.0.22006.2</FileVersion>
-	  <Version>1.22006.2</Version>
+	  <FileVersion>1.0.1.22108.1</FileVersion>
+	  <Version>1.22108.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
