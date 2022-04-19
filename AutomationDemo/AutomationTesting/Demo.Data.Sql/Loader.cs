@@ -29,9 +29,7 @@ namespace Demo.Data.Sql
         /// <inheritdoc />
         protected override void LoadRegistration(IServiceCollection serviceCollection, IConfiguration configuration)
         {
-            //This method was auto generated, do not modify by hand!
-            serviceCollection.AddTransient<Demo.Data.Contract.IDeptRepository, DeptRepository>();
-            serviceCollection.AddTransient<Demo.Data.Contract.IUserRepository, UserRepository>();
+            
         }
     }
 }

@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
 	  <Product>Common Delivery Framework Grpc</Product>
-	  <Description>Provides a framework to be used with application delivery for .net based application. This library focuses on handling Grpc integration with common delivery framework..</Description>
+	  <Description>Provides a framework to be used with application delivery for .net based application. This library focuses on handling Grpc integration with common delivery framework.</Description>
 	  <Copyright>Copyright (c) 2022 LifeCycle Delivery Services, Inc</Copyright>
 	  <PackageProjectUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework</PackageProjectUrl>
 	  <RepositoryUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework.git</RepositoryUrl>
@@ -16,8 +16,9 @@
 	  <Company>LifeCycle Delivery Services, Inc</Company>
 	  <PackageReleaseNotes>Initial release of the delivery framework</PackageReleaseNotes>
 	  <PackageTags>Delivery Framework</PackageTags>
-	  <FileVersion>1.0.22006.2</FileVersion>
-	  <Version>1.22006.2</Version>
+	  <FileVersion>1.0.1.22108.1</FileVersion>
+	  <Version>1.22108.1</Version>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

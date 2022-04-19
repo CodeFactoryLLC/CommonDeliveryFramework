@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <OutputType>Library</OutputType>
     <IsPackable>true</IsPackable>
     <Product>Common Delivery Framework for Asp.net Core</Product>
-    <Description>Extends the Common Delivery Framework with common support for ASP.Net core functionality.</Description>
-    <Copyright>Copyright (c) 2020 LifeCycle Delivery Services, Inc</Copyright>
+    <Description>Extends the Common Delivery Framework with common support for ASP.Net core functionality. </Description>
+    <Copyright>Copyright (c) 2022 LifeCycle Delivery Services, Inc</Copyright>
     <PackageProjectUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework.git</RepositoryUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
@@ -14,14 +14,15 @@
     <Company>LifeCycle Delivery Services, Inc</Company>
     <PackageReleaseNotes>Initial release of the delivery framework</PackageReleaseNotes>
     <PackageTags>Delivery Framework ASPNetCore</PackageTags>
-    <FileVersion>1.0.20219.1</FileVersion>
-    <Version>1.0.02191</Version>
+    <FileVersion>1.0.22108.1</FileVersion>
+    <Version>1.22108.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommonDeliveryFramework" Version="1.0.2191" />
+    <PackageReference Include="CommonDeliveryFramework" Version="1.22108.1" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
+  <metadata>
+    <id>CommonDeliveryFramework.Net.Automation.Common</id>
+    <version>1.22108.1</version>
+    <title>CommonDeliveryFramework.Net.Automation.Common</title>
+    <authors>CommonDeliveryFramework Team</authors>
+    <owners>LifeCycle Delivery Services, Inc</owners>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Common automation extensions used with CommonDeliveryFramework.</description>
+    <releaseNotes>
+      CodeFactory Automation Integration.
+      First release of the CodeFactory automation for CDF.
+    </releaseNotes>
+    <copyright>Copyright (c) 2022 LifeCycle Delivery Services, Inc</copyright>
+	<projectUrl>https://github.com/CodeFactoryLLC/CommonDeliveryFramework</projectUrl> 
+    <tags>Factory Automation</tags>
+    <dependencies>
+		<group targetFramework=".NETFramework4.7.2">
+          <dependency id="CodeFactorySDK" version="1.21085.1"  />
+          <dependency id="CodeFactory.Formatting.CSharp" version="1.21068.1" />
+		</group>	
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Debug\CommonDeliveryFramework.Net.Automation.Common.pdb" target="lib/net472/" />
+  </files>
+</package>
+
